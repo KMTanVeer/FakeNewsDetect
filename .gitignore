@@ -43,6 +43,12 @@ data/*.xlsx
 models/*.pkl
 models/*.joblib
 
+# Visualizations
+visualizations/
+*.png
+*.jpg
+*.jpeg
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
