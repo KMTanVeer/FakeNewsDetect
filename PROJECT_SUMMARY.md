@@ -137,7 +137,7 @@ Using sample data (1000 samples):
 - **Training Time**: < 1 second
 - **Prediction Time**: < 100ms
 
-Note: With real-world data, expect 75-90% accuracy depending on dataset quality.
+Note: With real-world data, accuracy typically ranges from 75-90% depending on dataset quality, size, and characteristics. Performance varies significantly based on factors such as data balance, text length, and domain specificity.
 
 ## Usage Examples
 
@@ -213,7 +213,8 @@ All dependencies specified in requirements.txt:
 ## Installation
 
 ```bash
-git clone https://github.com/KMTanVeer/FakeNewsDetect.git
+# Clone the repository
+git clone <repository-url>
 cd FakeNewsDetect
 pip install -r requirements.txt
 python example.py

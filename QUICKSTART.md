@@ -120,10 +120,16 @@ results = predictor.predict_batch(texts)
 ## Performance
 
 Typical metrics with sample data:
-- Accuracy: ~85-95%
-- F1-Score: ~85-95%
+- Accuracy: ~85-100% (sample synthetic data)
+- F1-Score: ~85-100% (sample synthetic data)
 
-*Performance varies with dataset quality*
+**Note**: With real-world datasets, expect 75-90% accuracy depending on:
+- Dataset quality and size
+- Text length and complexity
+- Class balance (real vs fake distribution)
+- Domain specificity
+
+*Performance varies significantly with dataset characteristics*
 
 ## Troubleshooting
 
