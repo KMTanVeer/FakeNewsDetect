@@ -1,0 +1,2 @@
+# FakeNewsDetect
+a class project
